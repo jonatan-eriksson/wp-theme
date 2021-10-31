@@ -1,2 +1,2 @@
 <?php
-echo "Hello";
+get_header();
