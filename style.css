@@ -4,3 +4,8 @@ Text Domain: JETheme
 Author: Jonatan Eriksson
 Version: 1.0
 */
+
+.navbar-nav a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}

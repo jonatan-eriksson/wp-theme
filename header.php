@@ -12,5 +12,24 @@
 
 <body>
   <header id="header">
-    <h2><?php echo get_bloginfo('name') ?></h2>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><?php echo get_bloginfo('name') ?></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navigation" class="collapse navbar-collapse">
+
+          <?php
+          wp_nav_menu(
+            array(
+              'menu' => 'header',
+              'menu_class' => 'navbar-nav',
+            )
+          );
+          ?>
+        </div>
+      </div>
+    </nav>
   </header>
