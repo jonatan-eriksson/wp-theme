@@ -11,10 +11,10 @@ $image = $imageArray['sizes']['large'];
 <section class="hero bg-light py-5">
   <div class="container">
     <div class="row row align-items-center">
-      <div class="col-lg-5 offset-lg-1 order-lg-1">
+      <div class="col-lg-6 offset-lg-1 order-lg-1">
         <img class="img-fluid" src="<?php echo $image; ?>">
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-5">
         <h1 class="mt-3">
           <?php echo $title; ?>
         </h1>
